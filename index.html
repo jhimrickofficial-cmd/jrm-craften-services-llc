@@ -1,0 +1,1248 @@
+<!DOCTYPE html><html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Craften Services LLC | General Contractor &amp; Premium Construction Services</title>
+<meta content="Expert craftsmanship &amp; turnkey general contracting services backed by quality materials, licensed builders, and guaranteed delivery." name="description">
+<!-- Tailwind CSS CDN with forms and container queries -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Google Fonts: Plus Jakarta Sans -->
+<link href="https://fonts.googleapis.com" rel="preconnect">
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet">
+<!-- FontAwesome Icons for UI elements -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+<!-- Tailwind Configuration -->
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              red: '#C8382B',
+              redHover: '#B23024',
+              redLight: '#FFF2F0',
+              dark: '#111315',
+              darkCard: '#181A1D',
+              surface: '#FBFBFB',
+              border: '#E8EAED',
+              muted: '#68727D'
+            }
+          },
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+<!-- BEGIN: Custom Styles -->
+<style data-purpose="custom-typography">
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      color: #111315;
+      background-color: #ffffff;
+      -webkit-font-smoothing: antialiased;
+    }
+  </style>
+<style data-purpose="component-effects">
+    .step-line::before {
+      content: '';
+      position: absolute;
+      left: 19px;
+      top: 36px;
+      bottom: -16px;
+      width: 2px;
+      background: #E5E7EB;
+    }
+    .step-item:last-child .step-line::before {
+      display: none;
+    }
+    .watermark-text {
+      user-select: none;
+      pointer-events: none;
+    }
+  </style>
+<!-- END: Custom Styles -->
+</head>
+<body class="bg-white text-gray-900 selection:bg-brand-red selection:text-white">
+<!-- BEGIN: TopAnnouncement -->
+<aside class="bg-[#191c20] text-gray-300 text-xs py-2 px-4 border-b border-gray-800" data-purpose="top-announcement-bar">
+<div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
+<div class="flex items-center gap-4">
+<span class=""><i class="fa-solid fa-clock text-brand-red mr-1.5"></i> Mon-Fri: 9:00 AM - 6:00 PM | Sat: 9:00 AM - 2:00 PM</span>
+<span class="hidden md:inline text-gray-600">|</span>
+<span class="hidden md:inline"><i class="fa-solid fa-shield-halved text-brand-red mr-1.5"></i> Licensed &amp; Insured SC Contractor</span>
+</div>
+<div class="flex items-center gap-4">
+<a class="hover:text-white transition-colors flex items-center gap-1" href="https://maps.app.goo.gl/ib2bFQtp2c6WwGyg7" rel="noopener noreferrer" target="_blank">
+<i class="fa-solid fa-location-dot text-brand-red"></i> Find Our Location
+        </a>
+<a class="text-white font-medium hover:text-brand-red transition-colors" href="tel:+18036200757">
+<i class="fa-solid fa-phone text-brand-red mr-1"></i> +1 803-620-0757
+        </a>
+</div>
+</div>
+</aside>
+<!-- END: TopAnnouncement -->
+<!-- BEGIN: MainHeader -->
+<header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-gray-100 transition-all duration-300">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex justify-between items-center h-20">
+<!-- Brand Logo -->
+<a class="flex items-center gap-2.5 group" href="#">
+<div class="w-10 h-10 rounded bg-brand-red flex items-center justify-center text-white font-bold text-xl shadow-md group-hover:scale-105 transition-transform">
+<i class="fa-solid fa-cube text-lg"></i>
+</div>
+<div>
+<span class="text-xl font-extrabold tracking-tight text-gray-900 block leading-tight">Craften<span class="text-brand-red">Services</span></span>
+<span class="text-[10px] tracking-widest text-gray-400 font-semibold uppercase block">General Contractor LLC</span>
+</div>
+</a>
+<!-- Desktop Navigation -->
+<nav class="hidden lg:flex items-center gap-8 text-sm font-semibold text-gray-700">
+<a class="text-brand-red hover:text-brand-red transition-colors" href="#home">Home</a>
+<a class="hover:text-brand-red transition-colors" href="#about">About</a>
+<a class="hover:text-brand-red transition-colors" href="#services">Services</a>
+<a class="hover:text-brand-red transition-colors" href="#process">Process</a>
+<a class="hover:text-brand-red transition-colors" href="#projects">Projects</a>
+<a class="hover:text-brand-red transition-colors" href="#pricing">Pricing</a>
+<a class="hover:text-brand-red transition-colors" href="#contact">Contact</a>
+</nav>
+<!-- CTA Call Button -->
+<div class="hidden sm:flex items-center gap-4">
+<a class="inline-flex items-center gap-2 bg-brand-red hover:bg-brand-redHover text-white text-xs md:text-sm font-bold uppercase tracking-wider px-5 py-3 rounded shadow-md transition-all duration-200 hover:shadow-lg" href="#contact">
+<span class="">GET ESTIMATE</span>
+<i class="fa-solid fa-arrow-right text-xs"></i>
+</a>
+</div>
+<!-- Mobile Menu Button -->
+<div class="flex lg:hidden">
+<button aria-label="Toggle Navigation" class="text-gray-700 hover:text-brand-red p-2" id="mobile-menu-btn" type="button">
+<i class="fa-solid fa-bars text-2xl"></i>
+</button>
+</div>
+</div>
+</div>
+<!-- Mobile Navigation Drawer -->
+<div class="hidden lg:hidden bg-white border-b border-gray-200 px-6 py-4 space-y-3" id="mobile-menu">
+<a class="block text-brand-red font-semibold py-1" href="#home">Home</a>
+<a class="block text-gray-800 hover:text-brand-red font-semibold py-1" href="#about">About</a>
+<a class="block text-gray-800 hover:text-brand-red font-semibold py-1" href="#services">Services</a>
+<a class="block text-gray-800 hover:text-brand-red font-semibold py-1" href="#process">Process</a>
+<a class="block text-gray-800 hover:text-brand-red font-semibold py-1" href="#projects">Projects</a>
+<a class="block text-gray-800 hover:text-brand-red font-semibold py-1" href="#pricing">Pricing</a>
+<a class="block text-gray-800 hover:text-brand-red font-semibold py-1" href="#contact">Contact</a>
+<div class="pt-3 border-t border-gray-100 flex flex-col gap-2">
+<a class="w-full text-center bg-brand-red text-white py-2.5 rounded font-bold text-sm tracking-wider uppercase" href="tel:+18036200757">
+          Call +1 803-620-0757
+        </a>
+</div>
+</div>
+</header>
+<!-- END: MainHeader -->
+<main>
+<!-- BEGIN: HeroSection -->
+<section class="relative bg-brand-dark text-white overflow-hidden" data-purpose="hero-section" id="home">
+<!-- Background Image with Overlay -->
+<div class="absolute inset-0 z-0">
+<img alt="Modern Architecture Construction Project" class="w-full h-full object-cover opacity-30 mix-blend-luminosity filter contrast-125" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBXB2GpHIQHcyejEDaNgC8xvGeIsiTfizuGIIjIiEIScY7yabG-ROU51I017XLIuygoVvm0iPdN_2vRM3qkPipPbD8NycdgSK1c9z2T6ucH3o1Obl9o6Llp6WS5xWy7BzHJr5Jzqgebohj7mesM3ZhqB985V6T8a0kU_IAcMJZl1DEZHOrC9L_zvkcLQV9RxEmCe3TDN6_wjEnzC-sVAF3LY4ReVKtyShcnUqUj6gNaZSL0wAjGhH1Wvw">
+<div class="absolute inset-0 bg-gradient-to-t from-brand-dark via-brand-dark/70 to-transparent"></div>
+<div class="absolute inset-0 bg-gradient-to-r from-brand-dark/90 via-brand-dark/60 to-transparent"></div>
+</div>
+<div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-28 md:pt-28 md:pb-36">
+<div class="max-w-3xl">
+<!-- Small Category Tag -->
+<div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/10 backdrop-blur-md border border-white/15 text-xs uppercase tracking-widest text-red-200 font-semibold mb-6">
+<span class="w-2 h-2 rounded-full bg-brand-red"></span>
+            Craften Services LLC • Licensed &amp; Insured
+          </div>
+<!-- Main Hero Headline -->
+<h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-[1.12] mb-6">
+            Trusty General Contracting Help <br class="hidden sm:inline">
+            for Your Home &amp; Build
+          </h1>
+<!-- Hero Subtitle -->
+<p class="text-base sm:text-lg text-gray-300 font-normal leading-relaxed mb-10 max-w-2xl">
+            Expert craftsmanship &amp; turnkey construction services backed by quality materials, licensed master builders, and guaranteed delivery on every project.
+          </p>
+<!-- Action Buttons -->
+<div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-4">
+<a class="inline-flex items-center justify-center gap-3 bg-brand-red hover:bg-brand-redHover text-white px-7 py-4 rounded font-bold text-sm uppercase tracking-wider shadow-xl transition-all duration-200" href="#contact">
+<i class="fa-solid fa-phone"></i>
+<span class="">BOOK FREE CONSULTATION</span>
+</a>
+<a class="inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 text-white border border-white/20 px-7 py-4 rounded font-bold text-sm uppercase tracking-wider backdrop-blur-sm transition-all duration-200" href="#services">
+<span class="">EXPLORE SERVICES</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Hero Bottom Stats Bar (Matches 3-column pill design from reference) -->
+<div class="relative z-10 bg-black/40 border-t border-white/10 backdrop-blur-md">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6 divide-y md:divide-y-0 md:divide-x divide-white/10">
+<!-- Stat 1 -->
+<div class="flex items-center gap-4 pt-3 md:pt-0">
+<div class="w-10 h-10 rounded bg-brand-red/20 border border-brand-red/40 flex items-center justify-center text-brand-red text-lg">
+<i class="fa-regular fa-calendar-check"></i>
+</div>
+<div>
+<p class="text-xs uppercase tracking-wider text-gray-400">Years of Experience</p>
+<p class="text-base font-bold text-white">15+ Years Field Service</p>
+</div>
+</div>
+<!-- Stat 2 -->
+<div class="flex items-center gap-4 pt-3 md:pt-0 md:pl-8">
+<div class="w-10 h-10 rounded bg-brand-red/20 border border-brand-red/40 flex items-center justify-center text-brand-red text-lg">
+<i class="fa-solid fa-stopwatch"></i>
+</div>
+<div>
+<p class="text-xs uppercase tracking-wider text-gray-400">Quick Turnaround</p>
+<p class="text-base font-bold text-white">24/7 Rapid Response</p>
+</div>
+</div>
+<!-- Stat 3 -->
+<div class="flex items-center gap-4 pt-3 md:pt-0 md:pl-8">
+<div class="w-10 h-10 rounded bg-brand-red/20 border border-brand-red/40 flex items-center justify-center text-brand-red text-lg">
+<i class="fa-solid fa-file-invoice-dollar"></i>
+</div>
+<div>
+<p class="text-xs uppercase tracking-wider text-gray-400">Client Pricing</p>
+<p class="text-base font-bold text-white">Guaranteed Fixed Rates</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: HeroSection -->
+<!-- BEGIN: PartnerLogos -->
+<section class="py-10 bg-white border-b border-gray-100" data-purpose="partner-logos">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex flex-wrap items-center justify-center md:justify-between gap-8 opacity-65 grayscale hover:grayscale-0 transition-all">
+<div class="flex items-center gap-2 font-bold text-gray-700 tracking-tight text-lg">
+<i class="fa-solid fa-hammer text-gray-500"></i> BUILDCO
+          </div>
+<div class="flex items-center gap-2 font-bold text-gray-700 tracking-tight text-lg">
+<i class="fa-solid fa-compass-drafting text-gray-500"></i> APEX FRAME
+          </div>
+<div class="flex items-center gap-2 font-bold text-gray-700 tracking-tight text-lg">
+<i class="fa-solid fa-tree text-gray-500"></i> TIMBERLINE
+          </div>
+<div class="flex items-center gap-2 font-bold text-gray-700 tracking-tight text-lg">
+<i class="fa-solid fa-layer-group text-gray-500"></i> STRUCTUREX
+          </div>
+<div class="flex items-center gap-2 font-bold text-gray-700 tracking-tight text-lg">
+<i class="fa-solid fa-certificate text-gray-500"></i> MASTERBUILD
+          </div>
+</div>
+</div>
+</section>
+<!-- END: PartnerLogos -->
+<!-- BEGIN: ComprehensiveSolutions -->
+<section class="py-20 lg:py-24 bg-white" data-purpose="about-solutions" id="about">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+<!-- Image side (Contractors / Craft team) -->
+<div class="lg:col-span-5 relative">
+<div class="relative rounded-2xl overflow-hidden shadow-2xl bg-gray-100 aspect-[4/5] max-w-md mx-auto lg:max-w-none">
+<img alt="Expert Contractors with safety gear inspecting construction plans" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD0Z35dRml2BU3iKgKMRvLxrUjv9nv6WuvUfqosesbgTG5mGmcrZtv0kRsNGyYkLJahSMaUCSo9KVnFM4nZGPb57fqQvzioexf-q6kOE9BIdVAIooiS7CzgIsCgQRGv-rBU78_Mmi2IG2IhWrrkqyKsyo3QA-aDerL1rm5_pK9KtnPmiBACAAkc1y-_S6HJWUhNN0qEVEHE4wrgwYZO_IihCWQqUYzH9N8fxe4LE6Phfo2_dJffeGWtjg">
+<div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent"></div>
+<div class="absolute bottom-6 left-6 right-6 p-4 rounded-xl bg-white/95 backdrop-blur-sm border border-gray-100 shadow-lg flex items-center gap-4">
+<div class="w-12 h-12 rounded-lg bg-brand-red text-white flex items-center justify-center font-bold text-xl">
+<i class="fa-solid fa-shield-check"></i>
+</div>
+<div>
+<h4 class="text-sm font-bold text-gray-900">Craften Quality Standard</h4>
+<p class="text-xs text-gray-500">Full warranty &amp; local code guaranteed</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Content and Stats Grid Side -->
+<div class="lg:col-span-7">
+<div class="text-xs uppercase tracking-widest text-brand-red font-bold mb-3 flex items-center gap-2">
+<span class="w-1.5 h-1.5 rounded-full bg-brand-red"></span>
+              ALL SERVICES
+            </div>
+<h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-gray-900 tracking-tight leading-tight mb-5">
+              Comprehensive Construction Solutions for Every Need
+            </h2>
+<p class="text-base text-gray-600 leading-relaxed mb-8">
+              We handle everything from detailed residential remodeling to large commercial renovations. Our dedicated on-site project management guarantees milestone timelines, transparent pricing, and unparalleled artisanal finish.
+            </p>
+<a class="inline-flex items-center gap-2 text-xs font-bold tracking-widest text-gray-900 uppercase border-b-2 border-brand-red pb-1 mb-10 hover:text-brand-red transition-colors" href="tel:+18036200757">
+<span class="">LEARN MORE ABOUT US</span>
+<i class="fa-solid fa-arrow-right text-[10px]"></i>
+</a>
+<!-- 4-Stat Box Matrix -->
+<div class="grid grid-cols-2 gap-6 pt-6 border-t border-gray-100">
+<div class="border-l-2 border-gray-200 pl-4 py-1">
+<span class="text-xs font-medium uppercase text-gray-400 block tracking-wider mb-1">Years of Experience</span>
+<span class="text-3xl sm:text-4xl font-extrabold text-gray-900 tracking-tight">15+</span>
+</div>
+<div class="border-l-2 border-gray-200 pl-4 py-1">
+<span class="text-xs font-medium uppercase text-gray-400 block tracking-wider mb-1">Projects Delivered</span>
+<span class="text-3xl sm:text-4xl font-extrabold text-gray-900 tracking-tight">350+</span>
+</div>
+<div class="border-l-2 border-gray-200 pl-4 py-1">
+<span class="text-xs font-medium uppercase text-gray-400 block tracking-wider mb-1">Client Rating</span>
+<span class="text-3xl sm:text-4xl font-extrabold text-gray-900 tracking-tight">4.9/5<span class="text-brand-red text-2xl font-bold">*</span></span>
+</div>
+<div class="border-l-2 border-gray-200 pl-4 py-1">
+<span class="text-xs font-medium uppercase text-gray-400 block tracking-wider mb-1">Satisfied Clients</span>
+<span class="text-3xl sm:text-4xl font-extrabold text-gray-900 tracking-tight">1,200+</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: ComprehensiveSolutions -->
+<!-- BEGIN: FourServicesGrid -->
+<section class="py-20 bg-brand-surface border-y border-gray-100" data-purpose="services-grid" id="services">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<!-- Header -->
+<div class="text-center max-w-2xl mx-auto mb-16">
+<div class="text-xs uppercase tracking-widest text-brand-red font-bold mb-2">FULL SCOPE BUILD SERVICES</div>
+<h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900 tracking-tight mb-3">
+            Complete Roofing &amp; General Contracting Under One Structure
+          </h2>
+<p class="text-sm sm:text-base text-gray-600">
+            From foundation to ceiling and roof repairs, we oversee every step with licensed mastery and precision.
+          </p>
+</div>
+<!-- 4 White Cards Grid -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- Card 1 -->
+<div class="bg-white rounded-xl p-8 border border-gray-200/80 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between group">
+<div>
+<div class="w-12 h-12 rounded-lg border border-red-200 bg-brand-redLight flex items-center justify-center text-brand-red text-xl mb-6 group-hover:bg-brand-red group-hover:text-white transition-colors">
+<i class="fa-solid fa-house-chimney"></i>
+</div>
+<h3 class="text-lg font-bold text-gray-900 mb-2">Residential Contracting</h3>
+<p class="text-sm text-gray-500 leading-relaxed">
+                Full-home remodels, kitchen &amp; bathroom renovations, room extensions, and interior architectural finishes.
+              </p>
+</div>
+<div class="mt-8 pt-4 border-t border-gray-100 flex items-center justify-between text-xs font-bold text-brand-red">
+<span class="">EXPLORE RESIDENTIAL</span>
+<i class="fa-solid fa-arrow-right"></i>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="bg-white rounded-xl p-8 border border-gray-200/80 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between group">
+<div>
+<div class="w-12 h-12 rounded-lg border border-red-200 bg-brand-redLight flex items-center justify-center text-brand-red text-xl mb-6 group-hover:bg-brand-red group-hover:text-white transition-colors">
+<i class="fa-solid fa-building"></i>
+</div>
+<h3 class="text-lg font-bold text-gray-900 mb-2">Commercial Build-Outs</h3>
+<p class="text-sm text-gray-500 leading-relaxed">
+                Retail fit-outs, corporate office upgrades, code compliance improvements, and commercial facility management.
+              </p>
+</div>
+<div class="mt-8 pt-4 border-t border-gray-100 flex items-center justify-between text-xs font-bold text-brand-red">
+<span class="">EXPLORE COMMERCIAL</span>
+<i class="fa-solid fa-arrow-right"></i>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="bg-white rounded-xl p-8 border border-gray-200/80 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between group">
+<div>
+<div class="w-12 h-12 rounded-lg border border-red-200 bg-brand-redLight flex items-center justify-center text-brand-red text-xl mb-6 group-hover:bg-brand-red group-hover:text-white transition-colors">
+<i class="fa-solid fa-ruler-combined"></i>
+</div>
+<h3 class="text-lg font-bold text-gray-900 mb-2">Custom Framing &amp; Timber</h3>
+<p class="text-sm text-gray-500 leading-relaxed">
+                Structural load-bearing modifications, heavy timber construction, bespoke millwork, and custom deck framing.
+              </p>
+</div>
+<div class="mt-8 pt-4 border-t border-gray-100 flex items-center justify-between text-xs font-bold text-brand-red">
+<span class="">EXPLORE FRAMING</span>
+<i class="fa-solid fa-arrow-right"></i>
+</div>
+</div>
+<!-- Card 4 -->
+<div class="bg-white rounded-xl p-8 border border-gray-200/80 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between group">
+<div>
+<div class="w-12 h-12 rounded-lg border border-red-200 bg-brand-redLight flex items-center justify-center text-brand-red text-xl mb-6 group-hover:bg-brand-red group-hover:text-white transition-colors">
+<i class="fa-solid fa-warehouse"></i>
+</div>
+<h3 class="text-lg font-bold text-gray-900 mb-2">Roofing &amp; Enclosures</h3>
+<p class="text-sm text-gray-500 leading-relaxed">
+                Comprehensive shingle, metal, and flat roof installations, gutter systems, storm restoration, and weather sealing.
+              </p>
+</div>
+<div class="mt-8 pt-4 border-t border-gray-100 flex items-center justify-between text-xs font-bold text-brand-red">
+<span class="">EXPLORE ROOFING</span>
+<i class="fa-solid fa-arrow-right"></i>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: FourServicesGrid -->
+<!-- BEGIN: DarkAboutCraft -->
+<section class="py-20 bg-brand-dark text-white relative overflow-hidden" data-purpose="dark-architectural-feature">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="mb-10">
+<div class="text-xs uppercase tracking-widest text-brand-red font-bold mb-2">PRECISION ARCHITECTURAL WORK</div>
+<h2 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
+            About Our Roofing &amp; Construction Craftsmanship
+          </h2>
+</div>
+<!-- Featured panoramic architectural image banner -->
+<div class="relative rounded-2xl overflow-hidden border border-gray-800 shadow-2xl h-80 sm:h-96 md:h-[420px]">
+<img alt="Modern architectural house with metal roof and precision construction" class="w-full h-full object-cover filter brightness-90" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC1Fansktrizazf7cItrvk97ViRs7YYL8jWv5FsSZEysAakCVFCVy0EfkA1q8cFD7AOJ20Q7DKUkyOWtt29rAx-nYRBYYujSBPqQRcke7qDQ1qpcCdaW1MUnpzmULAKvnxhsIRnyXPunr2_8uiHP8HDB1D2wkYJ06DwbJ1anWQRS0VRdYOL8DGOfcSG2K8qLJHoE0DhRcgA8efCeKf-YZMnXZfW-f6zhOzFxD43mxuQKoOEfy_Vb82wBg">
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent"></div>
+<!-- Bottom bar over image -->
+<div class="absolute bottom-6 left-6 right-6 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 bg-brand-dark/80 backdrop-blur-md p-6 rounded-xl border border-white/10">
+<div>
+<p class="text-xl font-bold text-white">Engineered for South Carolina's Climates</p>
+<p class="text-sm text-gray-300">Resilient roofing materials &amp; storm-rated framing built to endure decades.</p>
+</div>
+<div class="flex items-center gap-8">
+<div>
+<span class="text-2xl font-extrabold text-brand-red">0 Days</span>
+<span class="text-xs text-gray-400 block uppercase">Unreported Delays</span>
+</div>
+<div>
+<span class="text-2xl font-extrabold text-white">10 Yrs</span>
+<span class="text-xs text-gray-400 block uppercase">Warranty Guarantee</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: DarkAboutCraft -->
+<!-- BEGIN: ProcessSection -->
+<section class="py-20 lg:py-24 bg-white" data-purpose="workflow-process" id="process">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="mb-12">
+<div class="text-xs uppercase tracking-widest text-brand-red font-bold mb-2">OUR METHODOLOGY</div>
+<h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900 tracking-tight">
+            A Process Designed for Structural Quality
+          </h2>
+<p class="text-gray-600 mt-2">Transparent, milestone-based execution from initial review to final certificate.</p>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+<!-- Builder Image -->
+<div class="lg:col-span-5">
+<div class="relative rounded-2xl overflow-hidden shadow-xl aspect-[4/5] bg-gray-100">
+<img alt="Supervisor in safety helmet checking building details with tablet" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCstCRVXKk_qvelVrhQytK8kXks6zr9zcdPxnN6CcsX4E5iqFcx5hkHcxbQMPhXDyTqcxTpLxlbMiKMVMLCJiVg_ZwnwvxCRJoni3olcg2TXIelClr4EQvLgf3ddwS9JRMK-9aDIr0EELfz3KtIu1j_ePDoJyfnFQoNTrGXpPZ5QAwrAqVB3DCaICr3LnRUOEtMJlVryXM4rQ8Z1xtva6pNlCDtnCO5egPqJvcIV-s42OhW8iDFRBoUyQ">
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
+<div class="absolute bottom-6 left-6 right-6 text-white">
+<span class="text-xs uppercase tracking-wider text-brand-red font-bold">On-Site Standards</span>
+<h4 class="text-lg font-bold">Rigorous Building Code Inspections</h4>
+<p class="text-xs text-gray-300 mt-1">Every phase signed off by master contractor oversight.</p>
+</div>
+</div>
+</div>
+<!-- 5-Step Process Timeline -->
+<div class="lg:col-span-7 space-y-4">
+<!-- Step 1 -->
+<div class="step-item relative flex items-start gap-4 p-4 rounded-xl hover:bg-gray-50 transition-colors">
+<div class="step-line flex-shrink-0 w-10 h-10 rounded-full bg-brand-red text-white flex items-center justify-center font-bold text-sm z-10 shadow">
+                01
+              </div>
+<div class="pt-1">
+<div class="flex items-center gap-3">
+<h4 class="text-base font-bold text-gray-900">Initial Consultation</h4>
+<span class="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded bg-brand-redLight text-brand-red">Step 1</span>
+</div>
+<p class="text-sm text-gray-600 mt-1">
+                  Connect on a 1-on-1 discovery call to explore your project scope, timeline expectations, architectural blueprints, and target budget.
+                </p>
+</div>
+</div>
+<!-- Step 2 -->
+<div class="step-item relative flex items-start gap-4 p-4 rounded-xl hover:bg-gray-50 transition-colors">
+<div class="step-line flex-shrink-0 w-10 h-10 rounded-full bg-gray-900 text-white flex items-center justify-center font-bold text-sm z-10 shadow">
+                02
+              </div>
+<div class="pt-1">
+<div class="flex items-center gap-3">
+<h4 class="text-base font-bold text-gray-900">Site Inspection &amp; Laser Assessment</h4>
+<span class="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded bg-gray-100 text-gray-600">Step 2</span>
+</div>
+<p class="text-sm text-gray-600 mt-1">
+                  On-site comprehensive inspection by our licensed builder, laser-measuring dimensions, diagnosing foundation or framing needs.
+                </p>
+</div>
+</div>
+<!-- Step 3 -->
+<div class="step-item relative flex items-start gap-4 p-4 rounded-xl hover:bg-gray-50 transition-colors">
+<div class="step-line flex-shrink-0 w-10 h-10 rounded-full bg-brand-red text-white flex items-center justify-center font-bold text-sm z-10 shadow">
+                03
+              </div>
+<div class="pt-1">
+<div class="flex items-center gap-3">
+<h4 class="text-base font-bold text-gray-900">Detailed Quote &amp; Milestone Scope</h4>
+<span class="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded bg-brand-redLight text-brand-red">Step 3</span>
+</div>
+<p class="text-sm text-gray-600 mt-1">
+                  Receive an itemized estimate with line-item clarity: no surprise costs, scheduled milestones, and permit procurement outlined.
+                </p>
+</div>
+</div>
+<!-- Step 4 -->
+<div class="step-item relative flex items-start gap-4 p-4 rounded-xl hover:bg-gray-50 transition-colors">
+<div class="step-line flex-shrink-0 w-10 h-10 rounded-full bg-gray-900 text-white flex items-center justify-center font-bold text-sm z-10 shadow">
+                04
+              </div>
+<div class="pt-1">
+<div class="flex items-center gap-3">
+<h4 class="text-base font-bold text-gray-900">Professional Construction Phase</h4>
+<span class="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded bg-gray-100 text-gray-600">Step 4</span>
+</div>
+<p class="text-sm text-gray-600 mt-1">
+                  Execution led by master craftsmen, maintaining dust control, strict safety adherence, daily cleanup, and on-time milestones.
+                </p>
+</div>
+</div>
+<!-- Step 5 -->
+<div class="step-item relative flex items-start gap-4 p-4 rounded-xl hover:bg-gray-50 transition-colors">
+<div class="flex-shrink-0 w-10 h-10 rounded-full bg-brand-red text-white flex items-center justify-center font-bold text-sm z-10 shadow">
+                05
+              </div>
+<div class="pt-1">
+<div class="flex items-center gap-3">
+<h4 class="text-base font-bold text-gray-900">Quality Assurance &amp; Warranty Handover</h4>
+<span class="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded bg-brand-redLight text-brand-red">Step 5</span>
+</div>
+<p class="text-sm text-gray-600 mt-1">
+                  Complete walkthrough punch list inspection, municipal code sign-off, and delivery of warranty certificates.
+                </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: ProcessSection -->
+<!-- BEGIN: ExpertsFeatures -->
+<section class="py-20 bg-brand-surface border-t border-gray-100" data-purpose="experts-and-durability">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start mb-12">
+<div class="lg:col-span-5">
+<div class="text-xs uppercase tracking-widest text-brand-red font-bold mb-2">BENEFITS &amp; SPECS</div>
+<h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900 tracking-tight">
+              Experts in Architectural Framing &amp; Heavy Structures
+            </h2>
+<p class="text-gray-600 text-sm mt-3">
+              We bring engineered precision to every beam, truss, and foundation to ensure generational endurance.
+            </p>
+</div>
+<div class="lg:col-span-7 grid grid-cols-1 md:grid-cols-3 gap-4">
+<!-- Feature 1 -->
+<div class="p-5 bg-white rounded-xl border border-gray-200">
+<div class="flex items-center gap-2 text-brand-red font-bold text-sm mb-2">
+<i class="fa-solid fa-bolt text-xs"></i>
+<span class="">Lifetime Durability</span>
+</div>
+<p class="text-xs text-gray-500 leading-relaxed">
+                Withstands severe winds, high humidity, and 50+ years of seasonal weather cycles.
+              </p>
+</div>
+<!-- Feature 2 -->
+<div class="p-5 bg-white rounded-xl border border-gray-200">
+<div class="flex items-center gap-2 text-brand-red font-bold text-sm mb-2">
+<i class="fa-solid fa-leaf text-xs"></i>
+<span class="">Energy Efficient</span>
+</div>
+<p class="text-xs text-gray-500 leading-relaxed">
+                Reduces thermal loss and optimizes insulation to drop HVAC utility bills up to 25%.
+              </p>
+</div>
+<!-- Feature 3 -->
+<div class="p-5 bg-white rounded-xl border border-gray-200">
+<div class="flex items-center gap-2 text-brand-red font-bold text-sm mb-2">
+<i class="fa-solid fa-wrench text-xs"></i>
+<span class="">Low Maintenance</span>
+</div>
+<p class="text-xs text-gray-500 leading-relaxed">
+                Premium treated composite, metal shingles, and mold-resistant framing materials.
+              </p>
+</div>
+</div>
+</div>
+<!-- Construction Site Photo with floating badge -->
+<div class="relative rounded-2xl overflow-hidden shadow-xl aspect-[16/8] max-h-[500px]">
+<img alt="Timber frame construction workers roofing a residential home" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDWBFs31enPooF0DypuaFWsNjqVXQXmoIxtAMda1j2jCJb7AYthJJU9vBy8ebjfjB-DSjD6hJWIgX3LJ2Q-SDoQPFCbcKXV9DQQRrBjgvWq_05dQRgIJehEB5-rZzMAYEMQnPPwKGz0zVerc6JZi4LaRzeTJCC04puboJA7BrGv72JNx8Smo-KOECiO9JExt-XzWUCYIBDcmDFLyeXrLtp1h_TbI0afrv2uankzyLyo07VC8sVOH2msKw">
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
+<!-- Floating badge -->
+<div class="absolute bottom-6 left-6 bg-white/95 backdrop-blur-md p-4 rounded-xl border border-gray-200 shadow-lg flex items-center gap-4">
+<div class="text-3xl font-extrabold text-brand-red">10<span class="text-base text-gray-600 font-bold">yr</span></div>
+<div class="text-xs text-gray-700 font-medium">
+              Comprehensive Craftsmanship <br>
+<strong class="text-gray-900 font-bold">Guaranteed Structural Warranty</strong>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: ExpertsFeatures -->
+<!-- BEGIN: WhyChooseUs -->
+<section class="py-20 bg-white" data-purpose="why-choose-us">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="max-w-2xl mb-14">
+<div class="text-xs uppercase tracking-widest text-brand-red font-bold mb-2">WHY WORK WITH US</div>
+<h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900 tracking-tight">
+            Why Choose Craften Services LLC
+          </h2>
+<p class="text-gray-600 text-sm mt-2">
+            Direct contractor accountability, licensed South Carolina tradesmen, and reliable communication at every phase.
+          </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<!-- Item 1 -->
+<div class="p-8 rounded-xl border border-gray-200 hover:border-brand-red/50 hover:shadow-lg transition-all">
+<div class="w-12 h-12 rounded-lg bg-gray-100 flex items-center justify-center text-brand-red text-xl mb-6">
+<i class="fa-solid fa-handshake"></i>
+</div>
+<h3 class="text-lg font-bold text-gray-900 mb-2">Direct Builder Accountability</h3>
+<p class="text-sm text-gray-600 leading-relaxed">
+              No middleman sales reps. You speak directly with our general contractor who oversees your job site daily.
+            </p>
+</div>
+<!-- Item 2 -->
+<div class="p-8 rounded-xl border border-gray-200 hover:border-brand-red/50 hover:shadow-lg transition-all">
+<div class="w-12 h-12 rounded-lg bg-gray-100 flex items-center justify-center text-brand-red text-xl mb-6">
+<i class="fa-solid fa-file-contract"></i>
+</div>
+<h3 class="text-lg font-bold text-gray-900 mb-2">Transparent Milestone Billing</h3>
+<p class="text-sm text-gray-600 leading-relaxed">
+              Payments tied explicitly to completed, inspected project milestones. Never pay for unfinished work.
+            </p>
+</div>
+<!-- Item 3 -->
+<div class="p-8 rounded-xl border border-gray-200 hover:border-brand-red/50 hover:shadow-lg transition-all">
+<div class="w-12 h-12 rounded-lg bg-gray-100 flex items-center justify-center text-brand-red text-xl mb-6">
+<i class="fa-solid fa-award"></i>
+</div>
+<h3 class="text-lg font-bold text-gray-900 mb-2">10-Year Craftsmanship Warranty</h3>
+<p class="text-sm text-gray-600 leading-relaxed">
+              We stand firmly behind our installations. Any structural or seal concern is promptly resolved with zero hassle.
+            </p>
+</div>
+</div>
+</div>
+</section>
+<!-- END: WhyChooseUs -->
+<!-- BEGIN: TransformedProperties -->
+<section class="py-20 bg-brand-dark text-white" data-purpose="featured-projects" id="projects">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex flex-col md:flex-row justify-between items-start md:items-end mb-14 gap-4">
+<div>
+<div class="text-xs uppercase tracking-widest text-brand-red font-bold mb-2">PORTFOLIO</div>
+<h2 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
+              Transformed Properties
+            </h2>
+<p class="text-gray-400 text-sm mt-2 max-w-xl">
+              Discover real contracting transformations that turned damaged or outdated buildings into resilient, valuable architectural showcases.
+            </p>
+</div>
+<div class="flex items-center gap-2">
+<button class="w-10 h-10 rounded border border-gray-700 hover:border-white text-gray-300 hover:text-white flex items-center justify-center transition-colors">
+<i class="fa-solid fa-chevron-left text-xs"></i>
+</button>
+<button class="w-10 h-10 rounded border border-gray-700 hover:border-white text-gray-300 hover:text-white flex items-center justify-center transition-colors">
+<i class="fa-solid fa-chevron-right text-xs"></i>
+</button>
+</div>
+</div>
+<!-- 3 Dark Cards (01, 02, 03 style like reference) -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<!-- Project 01 -->
+<div class="group relative rounded-2xl overflow-hidden bg-brand-darkCard border border-gray-800 flex flex-col justify-between h-[420px] p-6 hover:border-gray-600 transition-all">
+<img alt="Custom Timber &amp; Beam Modern Residence" class="absolute inset-0 w-full h-full object-cover opacity-40 group-hover:scale-105 group-hover:opacity-50 transition-all duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAQq3dBjkgVNledXYEQUjl4f4oq7xg_e1vvR80dBL2o1pL5JHc6pL2ALDHObLLuaxNghoP4KEVE9bTxOodgyAfRITXVB3Xx_Ze_415j09Rd3doCLDZqhhl6n8OQsFvzUhscZmrWasVps_CteiiWgpLkKHFijIKsPi-BEuvEuddIdg3AVp4yhJV75_MxOnQwK0zEepBGaL3xHUN_JFvfE_5C7KRxKhE9aZ0ltuqnNLGZfm0OkkzAtVVNog">
+<div class="absolute inset-0 bg-gradient-to-t from-brand-darkCard via-brand-darkCard/60 to-transparent"></div>
+<div class="relative z-10 flex justify-between items-start">
+<div class="w-8 h-8 rounded bg-brand-red flex items-center justify-center text-white text-xs font-bold">
+<i class="fa-solid fa-house"></i>
+</div>
+<span class="text-4xl font-extrabold text-white/40 tracking-wider">01</span>
+</div>
+<div class="relative z-10">
+<span class="text-xs font-bold uppercase tracking-widest text-brand-red">Residential Estate</span>
+<h3 class="text-lg font-bold text-white mt-1 mb-2">Modern Architectural Framing &amp; Standing Seam Roof</h3>
+<p class="text-xs text-gray-300 line-clamp-2">Complete renovation replacing deteriorating truss framework with premium architectural metal roofing.</p>
+</div>
+</div>
+<!-- Project 02 -->
+<div class="group relative rounded-2xl overflow-hidden bg-brand-darkCard border border-gray-800 flex flex-col justify-between h-[420px] p-6 hover:border-gray-600 transition-all">
+<img alt="Commercial Office Facility Expansion" class="absolute inset-0 w-full h-full object-cover opacity-40 group-hover:scale-105 group-hover:opacity-50 transition-all duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDCyytpGqs64XxppNn0phM89XjFdwahO7CtCP8O8sBl5DzeRwn6PzE8irmorTzuL1CXEZ7dBcYxbVB_B4U840Of_UUYqYuvj5VWvUbd6NK95BcQzCD6vde5svFVNErC0MeZvpNkRLgXqOZafoBDZ8YE3Ly9ESIg-J73-YHq0SXYHI6satCpDSRgNcZWcPJYjY8HDT4lVpaH7nAarA2obKkdOY8m3fcxED7BhtvLmSE16wfknM_1X9zHQQ">
+<div class="absolute inset-0 bg-gradient-to-t from-brand-darkCard via-brand-darkCard/60 to-transparent"></div>
+<div class="relative z-10 flex justify-between items-start">
+<div class="w-8 h-8 rounded bg-brand-red flex items-center justify-center text-white text-xs font-bold">
+<i class="fa-solid fa-building"></i>
+</div>
+<span class="text-4xl font-extrabold text-white/40 tracking-wider">02</span>
+</div>
+<div class="relative z-10">
+<span class="text-xs font-bold uppercase tracking-widest text-brand-red">Commercial Facility</span>
+<h3 class="text-lg font-bold text-white mt-1 mb-2">Turnkey Commercial Build-Out &amp; Waterproofing</h3>
+<p class="text-xs text-gray-300 line-clamp-2">Interior office space build-out with certified fireproofing, TPO roofing upgrade, and ADA structural improvements.</p>
+</div>
+</div>
+<!-- Project 03 -->
+<div class="group relative rounded-2xl overflow-hidden bg-brand-darkCard border border-gray-800 flex flex-col justify-between h-[420px] p-6 hover:border-gray-600 transition-all">
+<img alt="Full Home Expansion and Structural Renovation" class="absolute inset-0 w-full h-full object-cover opacity-40 group-hover:scale-105 group-hover:opacity-50 transition-all duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuANtHeLICERmTE9xUEcXN7YaQ4dxFkG_c7Ccl1kMh31yeF63W_bjZx2NnxiBGUiw0bRM9R_zn8juPevYmMVP1BtsAP873DFXTQg86jrdHztlRNcD4el7mdN9rfo1Lx9xxuzIyLXCsIXYRWMANNsdrOlag7U4OrMcJtmuOcnY7q_YsJH01Tj3LUhtlJBgK5hUoTDSNXJrLVdpB_kOvXSp4lGnQoeXrBEld4sHa9o--sKKbn8KUs8JYQIKQ">
+<div class="absolute inset-0 bg-gradient-to-t from-brand-darkCard via-brand-darkCard/60 to-transparent"></div>
+<div class="relative z-10 flex justify-between items-start">
+<div class="w-8 h-8 rounded bg-brand-red flex items-center justify-center text-white text-xs font-bold">
+<i class="fa-solid fa-screwdriver-wrench"></i>
+</div>
+<span class="text-4xl font-extrabold text-white/40 tracking-wider">03</span>
+</div>
+<div class="relative z-10">
+<span class="text-xs font-bold uppercase tracking-widest text-brand-red">Structural Addition</span>
+<h3 class="text-lg font-bold text-white mt-1 mb-2">Two-Story Living Addition &amp; Load-Bearing Beam Removal</h3>
+<p class="text-xs text-gray-300 line-clamp-2">Seamless architectural tie-in with open-concept steel beam reinforcements and insulated composite siding.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: TransformedProperties -->
+<!-- BEGIN: Testimonials -->
+<section class="py-20 bg-brand-dark/95 text-white border-t border-gray-800" data-purpose="customer-reviews">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex flex-col md:flex-row justify-between items-start md:items-center mb-12">
+<div>
+<div class="text-xs uppercase tracking-widest text-brand-red font-bold mb-2">REVIEWS</div>
+<h2 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
+              What Our Customers Say
+            </h2>
+</div>
+<p class="text-gray-400 text-xs sm:text-sm mt-2 md:mt-0 max-w-sm">
+            Don't just take our word for it. Hear from satisfied property owners across the region.
+          </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<!-- Review 1 -->
+<div class="bg-brand-darkCard p-8 rounded-xl border border-gray-800 flex flex-col justify-between">
+<div>
+<div class="flex text-amber-400 text-sm mb-4">
+<i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+</div>
+<p class="text-gray-300 text-sm leading-relaxed italic mb-6">
+                "Professional and detail-oriented. Craften Services exceeded our expectations with their attention to detail on our whole-home renovation. Delivered 4 days ahead of schedule!"
+              </p>
+</div>
+<div class="flex items-center gap-3 pt-4 border-t border-gray-800">
+<div class="w-10 h-10 rounded-full bg-brand-red/30 text-brand-red flex items-center justify-center font-bold text-sm">
+                MK
+              </div>
+<div>
+<h4 class="text-sm font-bold text-white">Mark Kendrick</h4>
+<p class="text-xs text-gray-500">Homeowner • Residential Remodel</p>
+</div>
+</div>
+</div>
+<!-- Review 2 -->
+<div class="bg-brand-darkCard p-8 rounded-xl border border-gray-800 flex flex-col justify-between">
+<div>
+<div class="flex text-amber-400 text-sm mb-4">
+<i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+</div>
+<p class="text-gray-300 text-sm leading-relaxed italic mb-6">
+                "From our first phone call with +1 803-620-0757 to final inspection, the communication was top notch. Fixed pricing with zero surprise charges. True craftsmen."
+              </p>
+</div>
+<div class="flex items-center gap-3 pt-4 border-t border-gray-800">
+<div class="w-10 h-10 rounded-full bg-brand-red/30 text-brand-red flex items-center justify-center font-bold text-sm">
+                DL
+              </div>
+<div>
+<h4 class="text-sm font-bold text-white">David Lawson</h4>
+<p class="text-xs text-gray-500">Commercial Property Director</p>
+</div>
+</div>
+</div>
+<!-- Review 3 -->
+<div class="bg-brand-darkCard p-8 rounded-xl border border-gray-800 flex flex-col justify-between">
+<div>
+<div class="flex text-amber-400 text-sm mb-4">
+<i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+</div>
+<p class="text-gray-300 text-sm leading-relaxed italic mb-6">
+                "They solved a major roof leak and structural wall sagging that another contractor gave up on. Clean, courteous, and completely honest. Highly recommended!"
+              </p>
+</div>
+<div class="flex items-center gap-3 pt-4 border-t border-gray-800">
+<div class="w-10 h-10 rounded-full bg-brand-red/30 text-brand-red flex items-center justify-center font-bold text-sm">
+                ES
+              </div>
+<div>
+<h4 class="text-sm font-bold text-white">Elena Simmons</h4>
+<p class="text-xs text-gray-500">Residential Client</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: Testimonials -->
+<!-- BEGIN: TransparentPricing -->
+<section class="py-20 bg-white" data-purpose="pricing-packages" id="pricing">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center max-w-2xl mx-auto mb-16">
+<div class="text-xs uppercase tracking-widest text-brand-red font-bold mb-2">CLEAR &amp; HONEST PRICING</div>
+<h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900 tracking-tight mb-3">
+            Transparent Estimates, Zero Guesswork
+          </h2>
+<p class="text-sm sm:text-base text-gray-600">
+            Straightforward pricing tiers backed by upfront cost breakdown and guaranteed milestone contracts.
+          </p>
+</div>
+<!-- 3 Pricing Cards (Center highlighted like reference image) -->
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-8 items-stretch">
+<!-- Card 1 -->
+<div class="bg-white rounded-2xl p-8 border border-gray-200 shadow-sm flex flex-col justify-between hover:shadow-xl transition-all">
+<div>
+<div class="w-10 h-10 rounded-lg bg-gray-100 flex items-center justify-center text-gray-700 text-lg mb-6">
+<i class="fa-solid fa-clipboard-check"></i>
+</div>
+<span class="text-xs font-bold uppercase tracking-wider text-gray-400">On-Site Diagnostic</span>
+<h3 class="text-xl font-bold text-gray-900 mt-1 mb-2">Inspection &amp; Feasibility</h3>
+<div class="flex items-baseline gap-1 my-4">
+<span class="text-4xl font-extrabold text-gray-900">$199</span>
+<span class="text-xs text-gray-500 font-medium">/ Comprehensive Visit</span>
+</div>
+<p class="text-xs text-gray-500 mb-6 pb-6 border-b border-gray-100 leading-relaxed">
+                Complete diagnostic assessment credited entirely toward your contracted build project.
+              </p>
+<ul class="space-y-3 text-xs text-gray-600 font-medium">
+<li class="flex items-center gap-2.5">
+<i class="fa-solid fa-check text-brand-red"></i> Full structural &amp; roof inspection
+                </li>
+<li class="flex items-center gap-2.5">
+<i class="fa-solid fa-check text-brand-red"></i> High-resolution photo defect report
+                </li>
+<li class="flex items-center gap-2.5">
+<i class="fa-solid fa-check text-brand-red"></i> Laser elevation &amp; moisture scan
+                </li>
+<li class="flex items-center gap-2.5">
+<i class="fa-solid fa-check text-brand-red"></i> Itemized scope &amp; material estimate
+                </li>
+</ul>
+</div>
+<div class="mt-8 pt-6 border-t border-gray-100">
+<a class="w-full inline-flex justify-center items-center py-3 px-4 rounded bg-gray-900 hover:bg-gray-800 text-white font-bold text-xs uppercase tracking-wider transition-colors" href="tel:+18036200757">
+                BOOK INSPECTION
+              </a>
+</div>
+</div>
+<!-- Card 2: Featured Dark Card (Matches the prominent dark middle card in reference) -->
+<div class="bg-brand-dark rounded-2xl p-8 border-2 border-brand-red shadow-2xl flex flex-col justify-between relative transform lg:-translate-y-2">
+<div class="absolute -top-3.5 left-1/2 -translate-x-1/2 bg-brand-red text-white text-[10px] font-extrabold uppercase tracking-widest py-1 px-4 rounded-full shadow">
+              MOST POPULAR CHOICE
+            </div>
+<div>
+<div class="w-10 h-10 rounded-lg bg-brand-red text-white flex items-center justify-center text-lg mb-6">
+<i class="fa-solid fa-hammer"></i>
+</div>
+<span class="text-xs font-bold uppercase tracking-wider text-red-300">Renovation / Repair</span>
+<h3 class="text-xl font-bold text-white mt-1 mb-2">Standard Remodel Package</h3>
+<div class="flex items-baseline gap-1 my-4">
+<span class="text-4xl font-extrabold text-white">$2,500</span>
+<span class="text-xs text-gray-400 font-medium">/ Baseline Milestone</span>
+</div>
+<p class="text-xs text-gray-400 mb-6 pb-6 border-b border-gray-800 leading-relaxed">
+                Ideal for kitchen updates, bath overhauls, dedicated roof section replacements, or framing work.
+              </p>
+<ul class="space-y-3 text-xs text-gray-300 font-medium">
+<li class="flex items-center gap-2.5">
+<i class="fa-solid fa-check text-brand-red"></i> Full licensed trade supervision
+                </li>
+<li class="flex items-center gap-2.5">
+<i class="fa-solid fa-check text-brand-red"></i> Building permit processing included
+                </li>
+<li class="flex items-center gap-2.5">
+<i class="fa-solid fa-check text-brand-red"></i> 24/7 dedicated site foreman access
+                </li>
+<li class="flex items-center gap-2.5">
+<i class="fa-solid fa-check text-brand-red"></i> Daily cleanup &amp; debris removal
+                </li>
+<li class="flex items-center gap-2.5">
+<i class="fa-solid fa-check text-brand-red"></i> 10-year craftsmanship guarantee
+                </li>
+</ul>
+</div>
+<div class="mt-8 pt-6 border-t border-gray-800">
+<a class="w-full inline-flex justify-center items-center py-3.5 px-4 rounded bg-brand-red hover:bg-brand-redHover text-white font-bold text-xs uppercase tracking-wider transition-all shadow-md" href="tel:+18036200757">
+                GET STARTED TODAY
+              </a>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="bg-white rounded-2xl p-8 border border-gray-200 shadow-sm flex flex-col justify-between hover:shadow-xl transition-all">
+<div>
+<div class="w-10 h-10 rounded-lg bg-gray-100 flex items-center justify-center text-brand-red text-lg mb-6">
+<i class="fa-solid fa-gem"></i>
+</div>
+<span class="text-xs font-bold uppercase tracking-wider text-gray-400">Turnkey Construction</span>
+<h3 class="text-xl font-bold text-gray-900 mt-1 mb-2">Custom Turnkey Build</h3>
+<div class="flex items-baseline gap-1 my-4">
+<span class="text-4xl font-extrabold text-gray-900">$8,000+</span>
+<span class="text-xs text-gray-500 font-medium">/ Custom Quote</span>
+</div>
+<p class="text-xs text-gray-500 mb-6 pb-6 border-b border-gray-100 leading-relaxed">
+                Full-scope whole house renovations, large scale commercial build-outs, and new home extensions.
+              </p>
+<ul class="space-y-3 text-xs text-gray-600 font-medium">
+<li class="flex items-center gap-2.5">
+<i class="fa-solid fa-check text-brand-red"></i> Architectural &amp; engineering stamps
+                </li>
+<li class="flex items-center gap-2.5">
+<i class="fa-solid fa-check text-brand-red"></i> Premium material selection assistance
+                </li>
+<li class="flex items-center gap-2.5">
+<i class="fa-solid fa-check text-brand-red"></i> Comprehensive turnkey management
+                </li>
+<li class="flex items-center gap-2.5">
+<i class="fa-solid fa-check text-brand-red"></i> Guaranteed completion deadline
+                </li>
+</ul>
+</div>
+<div class="mt-8 pt-6 border-t border-gray-100">
+<a class="w-full inline-flex justify-center items-center py-3 px-4 rounded bg-gray-900 hover:bg-gray-800 text-white font-bold text-xs uppercase tracking-wider transition-colors" href="tel:+18036200757">
+                REQUEST CUSTOM PROPOSAL
+              </a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: TransparentPricing -->
+<!-- BEGIN: ComplianceSection -->
+<section class="py-16 bg-gray-50 border-t border-gray-200" data-purpose="certifications-compliance">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex flex-col md:flex-row items-center justify-between gap-6">
+<div class="flex items-center gap-4">
+<div class="w-14 h-14 rounded-full bg-white shadow border border-gray-200 flex items-center justify-center text-brand-red text-2xl">
+<i class="fa-solid fa-award"></i>
+</div>
+<div>
+<h3 class="text-lg font-bold text-gray-900">Licensed, Certified &amp; Insured General Contractor</h3>
+<p class="text-xs text-gray-500">Fully compliant with South Carolina construction safety &amp; labor standards.</p>
+</div>
+</div>
+<div class="flex flex-wrap items-center gap-3">
+<span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-md bg-white border border-gray-200 text-xs font-semibold text-gray-700 shadow-sm">
+<i class="fa-solid fa-circle-check text-brand-red"></i> Verified Liability Insurance
+            </span>
+<span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-md bg-white border border-gray-200 text-xs font-semibold text-gray-700 shadow-sm">
+<i class="fa-solid fa-circle-check text-brand-red"></i> Workers' Comp Protected
+            </span>
+<span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-md bg-white border border-gray-200 text-xs font-semibold text-gray-700 shadow-sm">
+<i class="fa-solid fa-circle-check text-brand-red"></i> OSHA Safety Compliant
+            </span>
+</div>
+</div>
+</div>
+</section>
+<!-- END: ComplianceSection -->
+<!-- BEGIN: LocationAndHours -->
+<section class="py-20 bg-white" data-purpose="hours-and-location" id="contact">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+<!-- Contact & Hours Details -->
+<div class="lg:col-span-6 space-y-6">
+<div class="text-xs uppercase tracking-widest text-brand-red font-bold">DISCUSS YOUR PROJECT</div>
+<h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900 tracking-tight">
+              Get in Touch with Craften Services LLC
+            </h2>
+<p class="text-sm text-gray-600 leading-relaxed">
+              Have questions about an upcoming build, roof replacement, or home remodel? Call our direct contractor line or schedule an on-site visit during our business hours.
+            </p>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
+<div class="p-4 rounded-xl border border-gray-200 bg-gray-50">
+<span class="text-xs uppercase tracking-wider text-brand-red font-bold block mb-1">Direct Phone</span>
+<a class="text-lg font-bold text-gray-900 hover:text-brand-red transition-colors block" href="tel:+18036200757">
+                  +1 803-620-0757
+                </a>
+<span class="text-[11px] text-gray-500">Tap to call our lead builder</span>
+</div>
+<div class="p-4 rounded-xl border border-gray-200 bg-gray-50">
+<span class="text-xs uppercase tracking-wider text-brand-red font-bold block mb-1">Find Us On Google Maps</span>
+<a class="text-sm font-bold text-brand-red hover:underline flex items-center gap-1.5 mt-1" href="https://maps.app.goo.gl/ib2bFQtp2c6WwGyg7" rel="noopener noreferrer" target="_blank">
+<span class="">Open Directions</span>
+<i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
+</a>
+<span class="text-[11px] text-gray-500">View map location &amp; reviews</span>
+</div>
+</div>
+<!-- Operating Hours Box -->
+<div class="p-5 rounded-xl border border-gray-200 bg-white shadow-sm">
+<h4 class="text-sm font-bold text-gray-900 mb-3 flex items-center gap-2">
+<i class="fa-regular fa-clock text-brand-red"></i>
+                Operating Hours
+              </h4>
+<ul class="space-y-2 text-xs text-gray-600">
+<li class="flex justify-between pb-1 border-b border-gray-100">
+<span class="font-medium">Monday – Friday</span>
+<span class="font-bold text-gray-900">9:00 AM – 6:00 PM</span>
+</li>
+<li class="flex justify-between pb-1 border-b border-gray-100">
+<span class="font-medium">Saturday</span>
+<span class="font-bold text-gray-900">9:00 AM – 2:00 PM</span>
+</li>
+<li class="flex justify-between">
+<span class="font-medium">Sunday</span>
+<span class="font-bold text-brand-red">Closed</span>
+</li>
+</ul>
+</div>
+</div>
+<!-- Quick Consultation Request Form -->
+<div class="lg:col-span-6">
+<div class="bg-gray-50 p-8 rounded-2xl border border-gray-200 shadow-sm">
+<h3 class="text-xl font-bold text-gray-900 mb-2">Request an On-Site Estimate</h3>
+<p class="text-xs text-gray-500 mb-6">Leave your details and our team will get back to you within 2 business hours.</p>
+<form action="#" class="space-y-4" method="POST" onsubmit="event.preventDefault(); alert('Thank you! Craften Services LLC will call you shortly at the provided number.');">
+<div>
+<label class="block text-xs font-bold text-gray-700 uppercase tracking-wider mb-1">Full Name</label>
+<input class="w-full text-sm rounded-lg border-gray-300 focus:border-brand-red focus:ring-brand-red px-4 py-2.5 bg-white" placeholder="John Doe" required="" type="text">
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+<div>
+<label class="block text-xs font-bold text-gray-700 uppercase tracking-wider mb-1">Phone Number</label>
+<input class="w-full text-sm rounded-lg border-gray-300 focus:border-brand-red focus:ring-brand-red px-4 py-2.5 bg-white" placeholder="+1 803-000-0000" required="" type="tel">
+</div>
+<div>
+<label class="block text-xs font-bold text-gray-700 uppercase tracking-wider mb-1">Service Type</label>
+<select class="w-full text-sm rounded-lg border-gray-300 focus:border-brand-red focus:ring-brand-red px-4 py-2.5 bg-white">
+<option>General Contracting</option>
+<option>Roofing Repair / Install</option>
+<option>Home Remodeling</option>
+<option>Commercial Build-Out</option>
+<option>Custom Carpentry / Framing</option>
+</select>
+</div>
+</div>
+<div>
+<label class="block text-xs font-bold text-gray-700 uppercase tracking-wider mb-1">Project Details</label>
+<textarea class="w-full text-sm rounded-lg border-gray-300 focus:border-brand-red focus:ring-brand-red px-4 py-2 bg-white" placeholder="Tell us about the project scope, address, and ideal start date..." rows="3"></textarea>
+</div>
+<button class="w-full bg-brand-red hover:bg-brand-redHover text-white font-bold text-xs uppercase tracking-widest py-3.5 px-6 rounded-lg shadow-md transition-colors" type="submit">
+                  SUBMIT ESTIMATE REQUEST
+                </button>
+</form>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: LocationAndHours -->
+<!-- BEGIN: FAQSection -->
+<section class="py-20 bg-brand-surface border-t border-gray-200" data-purpose="faq-accordion">
+<div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center mb-12">
+<div class="text-xs uppercase tracking-widest text-brand-red font-bold mb-2">GOT QUESTIONS?</div>
+<h2 class="text-3xl font-extrabold text-gray-900 tracking-tight">
+            Frequently Asked Questions
+          </h2>
+</div>
+<div class="space-y-3" id="faq-container">
+<!-- FAQ Item 1 -->
+<div class="border border-gray-200 bg-white rounded-xl overflow-hidden shadow-sm">
+<button class="faq-btn w-full px-6 py-4 text-left flex justify-between items-center text-sm font-bold text-gray-900 hover:text-brand-red transition-colors" data-target="faq-1" type="button">
+<span class="">What types of construction projects does Craften Services LLC handle?</span>
+<i class="fa-solid fa-chevron-down text-xs text-gray-400 transition-transform"></i>
+</button>
+<div class="faq-content hidden px-6 pb-5 text-xs text-gray-600 leading-relaxed border-t border-gray-100 pt-3" id="faq-1">
+              We specialize in full-service residential remodeling, commercial interior build-outs, architectural framing and heavy timber structures, full roof replacements (metal and shingle), and foundation adjustments throughout South Carolina.
+            </div>
+</div>
+<!-- FAQ Item 2 -->
+<div class="border border-gray-200 bg-white rounded-xl overflow-hidden shadow-sm">
+<button class="faq-btn w-full px-6 py-4 text-left flex justify-between items-center text-sm font-bold text-gray-900 hover:text-brand-red transition-colors" data-target="faq-2" type="button">
+<span class="">How do you guarantee transparent pricing with no hidden fees?</span>
+<i class="fa-solid fa-chevron-down text-xs text-gray-400 transition-transform"></i>
+</button>
+<div class="faq-content hidden px-6 pb-5 text-xs text-gray-600 leading-relaxed border-t border-gray-100 pt-3" id="faq-2">
+              We present an itemized scope of work breakdown before any hammer swings. Every milestone is agreed upon, materials are priced transparently, and any client-requested change order requires written approval before work proceeds.
+            </div>
+</div>
+<!-- FAQ Item 3 -->
+<div class="border border-gray-200 bg-white rounded-xl overflow-hidden shadow-sm">
+<button class="faq-btn w-full px-6 py-4 text-left flex justify-between items-center text-sm font-bold text-gray-900 hover:text-brand-red transition-colors" data-target="faq-3" type="button">
+<span class="">Are you fully licensed and insured?</span>
+<i class="fa-solid fa-chevron-down text-xs text-gray-400 transition-transform"></i>
+</button>
+<div class="faq-content hidden px-6 pb-5 text-xs text-gray-600 leading-relaxed border-t border-gray-100 pt-3" id="faq-3">
+              Yes. Craften Services LLC carries comprehensive commercial general liability insurance, full workers' compensation coverage, and adheres to all South Carolina general contracting code guidelines.
+            </div>
+</div>
+<!-- FAQ Item 4 -->
+<div class="border border-gray-200 bg-white rounded-xl overflow-hidden shadow-sm">
+<button class="faq-btn w-full px-6 py-4 text-left flex justify-between items-center text-sm font-bold text-gray-900 hover:text-brand-red transition-colors" data-target="faq-4" type="button">
+<span class="">How quickly can you start our project after inspection?</span>
+<i class="fa-solid fa-chevron-down text-xs text-gray-400 transition-transform"></i>
+</button>
+<div class="faq-content hidden px-6 pb-5 text-xs text-gray-600 leading-relaxed border-t border-gray-100 pt-3" id="faq-4">
+              Depending on whether municipal permits are required, emergency repairs can begin within 24–48 hours, while standard remodeling or custom builds typically mobilize within 1 to 2 weeks following permit issuance.
+            </div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: FAQSection -->
+<!-- BEGIN: BigCTA -->
+<section class="py-20 bg-brand-dark text-white relative overflow-hidden" data-purpose="final-call-to-action">
+<div class="absolute inset-0 opacity-15">
+<img alt="Architectural structure silhouette" class="w-full h-full object-cover filter grayscale" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC_qETDUaiaZQwUTFcNOU4GDav7ESCjwkZ4_3qxn9wBPNUVSh2F46C-Wwt0y3ERCn4pr2KWThxOV1MvOE2fjxn-HUYjgbjKo6qma9aD3nSOsRCW5UoBN-XfZ6JyKpUhFMBe3w0Fy7gUftRWini7rFC6E4ZACjy77ODa5mxi6PU1FpcKRoKjVO8fwPVvBeBua-nL0mg1gSd4gXD8gjIITDqLDndX30J9RnlpsvuRDgXg5vWutB10cKesHw">
+</div>
+<div class="relative z-10 max-w-4xl mx-auto px-4 text-center">
+<div class="inline-block px-3 py-1 bg-white/10 rounded-full text-brand-red text-xs font-bold uppercase tracking-widest mb-4">
+          Start Your Build With Confidence
+        </div>
+<h2 class="text-3xl sm:text-5xl font-extrabold text-white tracking-tight mb-6">
+          Ready to build or renovate something extraordinary?
+        </h2>
+<p class="text-base text-gray-300 max-w-xl mx-auto mb-8">
+          Contact our licensed team today for a comprehensive estimate and reliable milestone scheduling.
+        </p>
+<div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+<a class="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-brand-red hover:bg-brand-redHover text-white px-8 py-4 rounded font-bold text-xs uppercase tracking-wider shadow-lg transition-colors" href="tel:+18036200757">
+<i class="fa-solid fa-phone"></i>
+<span class="">CALL +1 803-620-0757</span>
+</a>
+<a class="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 text-white border border-white/20 px-8 py-4 rounded font-bold text-xs uppercase tracking-wider backdrop-blur-sm transition-colors" href="https://maps.app.goo.gl/ib2bFQtp2c6WwGyg7" rel="noopener noreferrer" target="_blank">
+<i class="fa-solid fa-location-dot"></i>
+<span class="">VIEW OUR LOCATION</span>
+</a>
+</div>
+</div>
+</section>
+<!-- END: BigCTA -->
+</main>
+<!-- BEGIN: MainFooter -->
+<footer class="bg-black text-white pt-16 pb-8 border-t border-gray-900 relative overflow-hidden" data-purpose="site-footer">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-10 pb-12 border-b border-gray-800">
+<!-- Col 1: Brand Info -->
+<div class="md:col-span-1 space-y-4">
+<div class="flex items-center gap-2.5">
+<div class="w-9 h-9 rounded bg-brand-red flex items-center justify-center text-white font-bold text-lg">
+<i class="fa-solid fa-cube text-sm"></i>
+</div>
+<div>
+<span class="text-lg font-extrabold tracking-tight text-white block leading-tight">Craften<span class="text-brand-red">Services</span></span>
+<span class="text-[9px] tracking-widest text-gray-500 font-semibold uppercase block">General Contractor LLC</span>
+</div>
+</div>
+<p class="text-xs text-gray-400 leading-relaxed">
+            Your trusted partner in quality, resilient contracting and turnkey construction solutions.
+          </p>
+<div class="text-xs text-gray-400">
+<strong class="text-white">Phone:</strong> <a class="hover:text-brand-red transition-colors" href="tel:+18036200757">+1 803-620-0757</a>
+</div>
+</div>
+<!-- Col 2: Navigation Links -->
+<div>
+<h4 class="text-xs font-bold uppercase tracking-wider text-gray-300 mb-4">Quick Links</h4>
+<ul class="space-y-2 text-xs text-gray-400">
+<li class=""><a class="hover:text-white transition-colors" href="#home">Home</a></li>
+<li class=""><a class="hover:text-white transition-colors" href="#about">About Us</a></li>
+<li class=""><a class="hover:text-white transition-colors" href="#services">Our Services</a></li>
+<li class=""><a class="hover:text-white transition-colors" href="#process">Execution Process</a></li>
+<li class=""><a class="hover:text-white transition-colors" href="#projects">Featured Projects</a></li>
+<li class=""><a class="hover:text-white transition-colors" href="#pricing">Estimates &amp; Pricing</a></li>
+</ul>
+</div>
+<!-- Col 3: Services -->
+<div>
+<h4 class="text-xs font-bold uppercase tracking-wider text-gray-300 mb-4">Specialties</h4>
+<ul class="space-y-2 text-xs text-gray-400">
+<li class="">Residential General Contracting</li>
+<li class="">Commercial Build-Outs</li>
+<li class="">Roofing &amp; Waterproofing</li>
+<li class="">Structural Carpentry &amp; Framing</li>
+<li class="">Site Diagnostics &amp; Permits</li>
+</ul>
+</div>
+<!-- Col 4: Hours & Map -->
+<div>
+<h4 class="text-xs font-bold uppercase tracking-wider text-gray-300 mb-4">Business Hours</h4>
+<p class="text-xs text-gray-400 leading-relaxed mb-3">
+            Mon-Fri: 9:00 AM – 6:00 PM<br>
+            Saturday: 9:00 AM – 2:00 PM<br>
+            Sunday: Closed
+          </p>
+<a class="inline-flex items-center gap-1.5 text-xs font-bold text-brand-red hover:underline" href="https://maps.app.goo.gl/ib2bFQtp2c6WwGyg7" rel="noopener noreferrer" target="_blank">
+<i class="fa-solid fa-map-location-dot"></i>
+<span class="">Google Maps Directory</span>
+</a>
+</div>
+</div>
+<!-- Giant stylized watermark footer branding (matches RooferPlus reference design) -->
+<div class="watermark-text text-center text-[10vw] sm:text-[12vw] font-black tracking-tighter text-white/[0.04] leading-none py-6 select-none uppercase">
+        CraftenServices
+      </div>
+<!-- Copyright Bar -->
+<div class="pt-6 flex flex-col sm:flex-row items-center justify-between text-[11px] text-gray-500 gap-2">
+<p class="">© 2026 Craften Services LLC. All rights reserved.</p>
+<div class="flex gap-4">
+<a class="hover:text-gray-400" href="#">Privacy Policy</a>
+<a class="hover:text-gray-400" href="#">Terms of Service</a>
+<a class="hover:text-gray-400" href="#">License Verification</a>
+</div>
+</div>
+</div>
+</footer>
+<!-- END: MainFooter -->
+<!-- BEGIN: InteractiveScripts -->
+<script data-purpose="interactive-handlers">
+    // Mobile Navigation Toggle
+    const mobileBtn = document.getElementById('mobile-menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    if (mobileBtn && mobileMenu) {
+      mobileBtn.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+      });
+
+      // Close menu on item click
+      mobileMenu.querySelectorAll('a').forEach(link => {
+        link.addEventListener('click', () => {
+          mobileMenu.classList.add('hidden');
+        });
+      });
+    }
+
+    // FAQ Accordion Toggle
+    const faqButtons = document.querySelectorAll('.faq-btn');
+    faqButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        const targetId = button.getAttribute('data-target');
+        const targetContent = document.getElementById(targetId);
+        const icon = button.querySelector('i');
+
+        if (targetContent) {
+          const isCurrentlyHidden = targetContent.classList.contains('hidden');
+          
+          // Close other open faqs
+          document.querySelectorAll('.faq-content').forEach(content => {
+            content.classList.add('hidden');
+          });
+          document.querySelectorAll('.faq-btn i').forEach(i => {
+            i.classList.remove('rotate-180');
+          });
+
+          // Toggle current
+          if (isCurrentlyHidden) {
+            targetContent.classList.remove('hidden');
+            if (icon) icon.classList.add('rotate-180');
+          }
+        }
+      });
+    });
+  </script>
+<!-- END: InteractiveScripts -->
+
+
+</body></html>
